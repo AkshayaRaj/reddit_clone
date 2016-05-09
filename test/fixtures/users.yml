@@ -1,0 +1,5 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+akshaya:
+  email: akshay@test.com
+  encrypted_password: <%= User.digest('password') %>
