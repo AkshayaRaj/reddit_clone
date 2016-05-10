@@ -1,8 +1,9 @@
 require 'test_helper'
 
 class LinksControllerTest < ActionController::TestCase
-  setup do
+  def setup
     @link = links(:one)
+    @user = users(:tom)
   end
 
   test "should get index" do
