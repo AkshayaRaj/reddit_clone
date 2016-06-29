@@ -17,6 +17,8 @@
  @import "bootstrap";
 
 
+$light-gray: #777;
+
  #logo {
  	font-size: 26px;
  	font-weight: 700;
@@ -55,4 +57,29 @@
  			}
  		}
  	}
+ }
+
+ .footer{
+   margin-top: 45px;
+   padding-top: 5px;
+   border-top: 1px solid #eaeaea;
+   color: $light-gray;
+   a{
+     color: #555;
+     &:hover{
+       color: #222;
+     }
+   }
+   small{
+     float: left;
+   }
+     ul{
+       float: right;
+       list-style: none;
+       li{
+         float: left;
+         margin-left: 15px;
+       }
+     }
+
  }
